@@ -1,1 +1,25 @@
-
+body {
+  font-family: 'Times New Roman', Times, serif;
+  display: grid;
+  grid: 1fr 1fr 1fr;
+  grid-column: left center right;
+ 
+}
+div .left {
+  display: grid;
+  grid-area: left;
+}
+div .center {
+  display: grid;
+  grid-area: center;
+}
+div .right {
+  display: grid;
+  grid-area: right;
+}
+body p .higlhight {
+  color: lightblue;
+  font-size: large;
+  text-transform: uppercase;
+  text-decoration: underline;
+}
